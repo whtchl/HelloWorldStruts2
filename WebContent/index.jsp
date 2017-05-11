@@ -62,6 +62,18 @@
             </tr>  
         </table>  
       </form> 
+      
+    <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>验证框架
+	</tr>
+    <s:form action="empinfo" method="post">
+        <s:textfield name="name" label="Name" size="20" />
+        <s:textfield name="age" label="Age" size="20" />
+        <s:submit name="submit" label="Submit" align="center" />
+   </s:form>
 </body>
 </body>
 </html>
