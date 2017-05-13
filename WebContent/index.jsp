@@ -74,6 +74,17 @@
         <s:textfield name="age" label="Age" size="20" />
         <s:submit name="submit" label="Submit" align="center" />
    </s:form>
+   
+   
+      <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>Struts2 类型转换
+	</tr>
+	    <s:form action="system" method="post">
+        <s:submit name="submit" label="类型转换" align="center" />
+   </s:form>
 </body>
 </body>
 </html>

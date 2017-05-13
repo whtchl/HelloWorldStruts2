@@ -61,5 +61,12 @@
 			<result name="input">/index.jsp</result>
 			<result name="success">/employSuccess.jsp</result>
 		</action>
+		
+		
+		   <action name="system" 
+            class="com.yiibai.struts2.SystemDetails" 
+            method="execute">
+         <result name="success">/System.jsp</result>
+      </action>
 	</package>
 </struts>
