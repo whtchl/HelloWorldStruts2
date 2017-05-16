@@ -76,15 +76,38 @@
    </s:form>
    
    
-      <br />
+    <br />
 	<br />
 	<br />
 	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
 	<tr>Struts2 类型转换
 	</tr>
-	    <s:form action="system" method="post">
+	<s:form action="system" method="post">
         <s:submit name="submit" label="类型转换" align="center" />
-   </s:form>
-</body>
+    </s:form>
+   
+<!--      <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>全局异常处理：
+	</tr>
+	<h1>Hello World From Struts2</h1>
+	<form action="ErrorAction">
+		<label for="name">Please enter your name</label><br /> <input
+			type="text" name="name" /> <input type="submit" value="Say Hello" />
+	</form> -->
+
+    <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>全局异常处理。。。
+	</tr>
+	<form action="testerror">
+		<br />  <input type="submit"
+			value="异常测试" />
+	</form>
+
 </body>
 </html>

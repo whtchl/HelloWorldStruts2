@@ -17,6 +17,14 @@
 		<interceptors>
 			<interceptor name="myinterceptor" class="com.yiibai.struts2.MyInterceptor" />
 		</interceptors>
+		
+		
+     <global-exception-mappings>
+         <exception-mapping exception="java.lang.NullPointerException"
+         result="error" />
+      </global-exception-mappings>
+		
+		
 		<action name="hello" class="com.yiibai.struts2.HelloWorldAction"
 			method="execute">
 			<interceptor-ref name="params"></interceptor-ref>
@@ -61,12 +69,23 @@
 			<result name="input">/index.jsp</result>
 			<result name="success">/employSuccess.jsp</result>
 		</action>
+
+
+		<action name="system" class="com.yiibai.struts2.SystemDetails"
+			method="execute">
+			<result name="success">/System.jsp</result>
+		</action>
 		
-		
-		   <action name="system" 
-            class="com.yiibai.struts2.SystemDetails" 
-            method="execute">
-         <result name="success">/System.jsp</result>
-      </action>
+		<action name="testerror" class="com.yiibai.struts2.ErrorAction"
+			method="execute">
+			<result name="success">/HelloWorld.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+ 
+
+	   <!-- <action name="testerror" class="cn.yiibai.struts2.ErrorAction"
+			method="execute">
+			<result name="success">/HelloWorld.jsp</result>
+		</action> -->
 	</package>
 </struts>
