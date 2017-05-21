@@ -124,5 +124,20 @@
       </select>
       <input type="submit" value="Say Hello"/>
    </form>
+   
+   
+      <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>Interator 迭代器
+	<a href="http://localhost:8080/HelloWorldStruts2/employeeiterator.action">Interator 迭代器</a>
+	</tr>
+   
+ 
+
+
+
+
 </body>
 </html>
