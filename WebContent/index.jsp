@@ -86,18 +86,6 @@
         <s:submit name="submit" label="类型转换" align="center" />
     </s:form>
    
-<!--      <br />
-	<br />
-	<br />
-	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
-	<tr>全局异常处理：
-	</tr>
-	<h1>Hello World From Struts2</h1>
-	<form action="ErrorAction">
-		<label for="name">Please enter your name</label><br /> <input
-			type="text" name="name" /> <input type="submit" value="Say Hello" />
-	</form> -->
-
     <br />
 	<br />
 	<br />
@@ -108,6 +96,33 @@
 		<br />  <input type="submit"
 			value="异常测试" />
 	</form>
+	
+	<br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>注释(struts2 释解析类有问题。要更新jar包 )
+	</tr>
+   <s:form action="empinfozhushi" method="post">
+      <s:textfield name="name" label="Name" size="20" />
+      <s:textfield name="age" label="Age" size="20" />
+      <s:submit name="submit" label="Submit" align="center" />
+   </s:form>
 
+   <br />
+	<br />
+	<br />
+	<HR style="border: 3 double #987cb9" width="100%" color=#987cb9 SIZE=3>
+	<tr>控制标签if/else
+	</tr>
+	   <form action="ifelse">
+      <label for="name">Please pick a name</label><br/>
+      <select name="name">
+         <option name="Mike">Mike</option>
+         <option name="Jason">Jason</option>
+         <option name="Mark">Mark</option>
+      </select>
+      <input type="submit" value="Say Hello"/>
+   </form>
 </body>
 </html>
