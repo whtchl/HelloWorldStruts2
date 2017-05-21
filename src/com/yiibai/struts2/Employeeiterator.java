@@ -28,6 +28,7 @@ public class Employeeiterator {
 	      contractors = new ArrayList();
 	      contractors.add(new Employeeiterator("Mindy","Database"));
 	      contractors.add(new Employeeiterator("Vanessa","Network"));
+	      contractors.add(new Employeeiterator("Vanessa2","Network2"));
 	      return "success";
 	   }
 
