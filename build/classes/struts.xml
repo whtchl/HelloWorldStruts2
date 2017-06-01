@@ -64,8 +64,7 @@
 
 
 
-		<action name="empinfo" class="com.yiibai.struts2.Employee"
-			method="execute">
+	 <action name="empinfo" class="com.yiibai.struts2.Employee" method="execute">
 			<result name="input">/index.jsp</result>
 			<result name="success">/employSuccess.jsp</result>
 		</action>
